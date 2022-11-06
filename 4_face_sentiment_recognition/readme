@@ -1,0 +1,18 @@
+Face sentiment recognition
+==========================
+
+
+This program uses a neural network with Keras to detect faces in a video stream. It then uses deepface to analyze the sentiment of the detected faces.
+The sentiment is then displayed on the screen.
+
+## DATA
+
+- Input: 48 x 48 image
+- Ourput: seniment (from 1 to 6)
+  - 0: Angry,
+  - 1: Disgust,
+  - 2: Fear,
+  - 3: Happy,
+  - 4: Sad,
+  - 5: Surprise,
+  - 6: Neutral
